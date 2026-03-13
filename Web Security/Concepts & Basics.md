@@ -25,3 +25,15 @@ WAF examples for behavior:
 - **Behavioral analysis:** Detects unusual activity (e.g repeated login attempts)
 - **IP & location filtering:** Blocks traffic from risky/unexpected regions
 
+
+**Request Methods To Be Aware Of**:
+
+|                    |                                         |                                                |
+| ------------------ | --------------------------------------- | ---------------------------------------------- |
+| **Request Method** | **Normal Usage**                        | **Possible abuse**                             |
+| **GET**            | Retrieve a resource                     | Used for recon or interacting with a web shell |
+| **POST**           | Submit data to the server               | Upload or interact with a web shell            |
+| **PUT**            | Upload or replace a file on the server  | Upload a web shell                             |
+| **DELETE**         | Remove a resource from the server       | Cleanup methods                                |
+| **OPTIONS**        | Requests methods that are supported     | Reconaissance                                  |
+| **HEAD**           | Similar to GET but only returns headers | To detect files                                |

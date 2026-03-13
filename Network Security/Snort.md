@@ -59,3 +59,34 @@ Snort is a FOSS rule-based NIDS/NIPS.
 	`-T`: tests the config 
 	`-c`: identifies the config file
 	`-q`: prevents snort at starting from displaying banner
+
+Also Snort have different **Operation Modes**:
+
+## Sniffer Mode
+![[Pasted image 20260301192908.png]]
+Parameters:
+- `-v`: Verbose. 
+- `-d`: displays the packet data (payload)
+	covers verbose mode and more data
+- `-e`: displays link-layer headers (TCP/IP/UDP/ICMP)
+- `-X`: displays packet details in HEX
+- `-i`: you can define a network interface to listen to or sniff
+	`sudo snort -v -i wlan0`
+
+
+
+## Packet Logger Mode
+
+![[Pasted image 20260301192935.png]]
+
+Parameters:
+- `-l`: logger mode, target log, and alert output directory (default is /var/log/snort)
+	`sudo snort -dev -l`
+- `-K ASCII -l`: logs packets in ASCII format
+- `-r`: reading option: review the logged events
+	`sudo snort -r logname.log -X`
+	`sudo snort -r logname.log icmp`
+	`sudo snort -r logname.log tcp`
+	`sudo snort -r logname.log 'udp and port 53'`
+- `-n`: Specify the number of packets to be processed or read
+

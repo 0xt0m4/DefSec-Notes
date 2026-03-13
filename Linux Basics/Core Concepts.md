@@ -49,12 +49,15 @@ Visit [https://explainshell.com/](https://explainshell.com/) to learn more.
 
 
 `env` variable prints out the stored variables.
+
 If looking for a specific value, use the `env` command or `grep`
 
 
 # Workflows
 
 ## Finding Files on System
+
+- **Fd-find** is an easier alternative for `find`, you can use simply `fd <nameToFind> <location>`
 
 - **Which** returns the path of a tool that where it's linked or should be executed
 	`which python` --> /usr/bin/python
@@ -73,5 +76,5 @@ If looking for a specific value, use the `env` command or `grep`
 	`sudo updatedb` - updates it's database information
 	But in contrast, doesn't have many filter options
 
-## File Descriptors and Redirections
+
 

@@ -8,6 +8,20 @@
         "type": "tabs",
         "children": [
           {
+            "id": "f41c4c1ba5e240cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Network Security/Wireshark.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Wireshark"
+            }
+          },
+          {
             "id": "837f5d8529dd8a64",
             "type": "leaf",
             "state": {
@@ -19,6 +33,20 @@
               },
               "icon": "lucide-file",
               "title": "SPL for Search"
+            }
+          },
+          {
+            "id": "0c6a650787b5adb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows Basics/Windows Logging for SOC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Windows Logging for SOC"
             }
           }
         ]
@@ -169,53 +197,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "837f5d8529dd8a64",
+  "active": "f41c4c1ba5e240cb",
   "lastOpenFiles": [
-    "SIEM Basics/Workbooks.md",
+    "Web Security/Detecting Web Shells.md",
+    "Network Security/Wireshark.md",
+    "Web Security/Concepts & Basics.md",
+    "Attachments/Pasted image 20260313111102.png",
+    "Attachments/Pasted image 20260313111009.png",
+    "Attachments/616945d482ef350052080da1-1753924119088.svg",
+    "Fontos-Surgos.md",
+    "Windows Basics/Windows Logging for SOC.md",
+    "Attachments/678ecc92c80aa206339f0f23-1747515709432 1.svg",
+    "Attachments/678ecc92c80aa206339f0f23-1747515709432.svg",
+    "Network Security/MITM Detection.md",
+    "Attachments/Pasted image 20260312091218.png",
+    "Intro and Solutions/9. Unified Kill Chain.md",
+    "Intro and Solutions/6. Intro to SIEM.md",
+    "Intro and Solutions/2. SOC Role in Blue Team.md",
+    "Intro and Solutions/1. Security Analyst Intro.md",
+    "Linux Basics/Core Concepts.md",
+    "Networking Basics/Untitled.md",
+    "SIEM Basics/ELK Basics.md",
+    "SIEM Basics/ELK Alert Triangle.md",
+    "Analysis/Untitled.md",
+    "Attachments/Pasted image 20260311125923.png",
+    "Attachments/Pasted image 20260311124138.png",
+    "Attachments/Pasted image 20260311124102.png",
+    "Attachments/Pasted image 20260311124029.png",
+    "SIEM Basics/SPL for Search.md",
+    "SIEM Basics/Splunk Basics.md",
     "SIEM Basics/Splunk Reports & Dashboard.md",
     "SIEM Basics/Splunk Incident Handling.md",
-    "SIEM Basics/Splunk Basics.md",
+    "Off-Topic",
+    "SIEM on Qubes OS.md",
+    "Off-Topic/Risk Management.md",
+    "Analysis/Operationally.md",
+    "Network Security/Snort.md",
+    "SIEM Basics/Workbooks.md",
     "Analysis/1. Phising Analysis Fundamentals.md",
     "Analysis/2. Detecting Web Attacks.md",
-    "Networking Basics/IDS Foundamentals.md",
-    "Web Search Skills.md",
-    "TODO.md",
-    "Untitled.md",
-    "SIEM Basics/SPL for Search.md",
-    "Bring it on.md",
-    "SIEM Basics/SOAR.md",
-    "Linux Basics/Core Concepts.md",
-    "Analysis/Mitre.md",
-    "Networking Basics/Snort IDS-IPS.md",
-    "Analysis/SIEM Log Analysis.md",
-    "Attachments/Pasted image 20260227153457.png",
-    "Attachments/Pasted image 20260223202854.png",
-    "Attachments/Pasted image 20260223164755.png",
-    "SIEM Basics/Elastic Alert Triangle.md",
-    "Analysis/Network_Intrusion_Detection_System.md",
-    "Analysis/Network.md",
-    "Attachments/Pasted image 20260207015209.png",
-    "Attachments/Pasted image 20260207013659.png",
-    "Attachments/Pasted image 20260207005101.png",
-    "Attachments/Pasted image 20260207002805.png",
-    "Attachments/Pasted image 20260206175228.png",
-    "SIEM Basics/Elastic Stack Basics.md",
-    "Attachments/Pasted image 20260205015821.png",
-    "Attachments/Pasted image 20260205012644.png",
-    "Networking Basics/Essentials.md",
-    "Hashing.md",
     "SIEM Basics",
-    "Networking Basics/Securing Networks.md",
-    "Analysis/Log Foundamentals.md",
-    "Intro and Solutions/SOC Foundamentals.md",
     "Analysis/Untitled 1.base",
     "Analysis/Untitled.base",
     "Windows Basics",
-    "Web Monitoring",
+    "Web Security",
     "Linux Basics",
-    "Networking Basics",
+    "Network Security",
     "Analysis",
-    "Intro and Solutions",
-    "Attachments"
+    "Intro and Solutions"
   ]
 }
